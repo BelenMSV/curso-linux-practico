@@ -13,7 +13,7 @@ Este curso está pensado para eliminar la barrera de entrada a Linux. A través 
 ### 📊 Detalles del curso
 * **Dificultad:** Básico a Medio. Comenzamos desde cero absoluto.
 * **Conocimientos previos:** No se requiere experiencia previa con Linux. Solo manejo básico de un ordenador (Windows o macOS) y conexión a internet.
-* **Tiempo total estimado:** ~20 horas (actualizado: **16.5 horas** de contenido ya disponible).
+* **Tiempo total estimado:** ~25 horas (actualizado: **20.5 horas** de contenido ya disponible).
 
 ---
 
@@ -41,8 +41,13 @@ El curso se divide en bloques lógicos. Cada carpeta contiene su propio material
 * **Estado:** Finalizado.
 * **Duración estimada:** 4.5 horas.
 
-### 🚧 Módulo 5: Usuarios y Permisos
-* **Descripción:** Seguridad del sistema, gestión de cuentas, grupos y el uso fundamental del comando `sudo`.
+### ✅ [Módulo 5: Usuarios y Permisos](./05-usuarios-y-permisos/)
+* **Descripción:** Seguridad del sistema, gestión de cuentas, grupos, matriz de permisos (rwx), comandos `chmod`/`chown` y uso de `sudo`.
+* **Estado:** Finalizado.
+* **Duración estimada:** 4 horas.
+
+### 🚧 Módulo 6: Automatización y Bash Scripting
+* **Descripción:** Creación de guiones (scripts) para automatizar tareas repetitivas, uso de variables, bucles y condicionales en la terminal.
 * **Estado:** Planificado (Siguiente paso).
 
 ---
@@ -51,9 +56,9 @@ El curso se divide en bloques lógicos. Cada carpeta contiene su propio material
 
 Cada módulo está organizado de forma jerárquica para facilitar el aprendizaje autónomo:
 
-1.  **Navegación:** Entra en la carpeta del módulo correspondiente (ej. `04-gestion-de-paquetes-y-software`).
+1.  **Navegación:** Entra en la carpeta del módulo correspondiente (ej. `05-usuarios-y-permisos`).
 2.  **Lectura:** Cada carpeta de módulo tiene su propio `README.md` que explica los objetivos y lista los temas.
-3.  **Temas:** Dentro de cada módulo, los temas están numerados (ej. `01-tiendas-graficas-y-repositorios`). Entra en ellos y sigue el archivo `README.md` detallado.
+3.  **Temas:** Dentro de cada módulo, los temas están numerados (ej. `04-la-matriz-de-permisos`). Entra en ellos y sigue el archivo `README.md` detallado.
 4.  **Práctica:** No te limites a leer. Ten tu máquina virtual abierta y replica cada paso. Linux se aprende escribiendo, no solo mirando.
 
 ---
