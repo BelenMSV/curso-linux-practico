@@ -1,69 +1,43 @@
-# Linux Práctico: Instala, Configura y Administra tu Sistema 🐧
+# Linux Práctico: El Bootcamp definitivo de Administración de Sistemas 🐧
 
-Bienvenido al repositorio oficial del curso **Linux Práctico**. Este proyecto nace con el objetivo de ofrecer una guía paso a paso, estructurada y, sobre todo, práctica, para cualquier persona que quiera dominar el sistema operativo que mueve la infraestructura tecnológica del mundo.
+Bienvenido al repositorio oficial de **Linux Práctico**. Este proyecto nace con el objetivo de ofrecer una guía paso a paso, estructurada y, sobre todo, práctica, para cualquier persona que quiera dominar el sistema operativo que mueve la infraestructura tecnológica del mundo.
 
-Aquí no solo encontrarás teoría; el curso está diseñado para que "aprendas haciendo", desde la creación de tu propio laboratorio virtual hasta la administración de servidores y usuarios.
-
----
-
-## 🚀 Sobre este curso
-
-Este curso está pensado para eliminar la barrera de entrada a Linux. A través de módulos progresivos, aprenderás a manejar la terminal, entender la jerarquía del sistema y realizar tareas de administración que son fundamentales en el mundo del desarrollo de software, la ciberseguridad y la administración de sistemas (SysAdmin).
-
-### 📊 Detalles del curso
-* **Dificultad:** Básico a Medio. Comenzamos desde cero absoluto.
-* **Conocimientos previos:** No se requiere experiencia previa con Linux. Solo manejo básico de un ordenador (Windows o macOS) y conexión a internet.
-* **Tiempo total estimado:** ~40 horas (actualizado: **36 horas** de contenido ya disponible).
+Lo que empezó como un curso introductorio, ha evolucionado hasta convertirse en un **Bootcamp completo**. Aquí no solo encontrarás teoría; el entrenamiento está diseñado para que "aprendas haciendo", llevándote desde la creación de tu propio laboratorio virtual hasta el despliegue de servidores reales en la nube.
 
 ---
 
-## 🗂️ Estructura del Curso (Módulos)
+## 🚀 Sobre este Bootcamp
 
-El curso se divide en bloques lógicos. Cada carpeta contiene su propio material y guías paso a paso.
+Este programa está pensado para eliminar la barrera de entrada a Linux y formar perfiles preparados para el mundo laboral (SysAdmin, Junior DevOps o Backend Developer). A través de módulos progresivos y orientados a proyectos, dejarás de ser un simple usuario para convertirte en un administrador de sistemas.
 
-### ✅ [Módulo 1: Introducción y Entorno](./01-introduccion-y-entorno/)
-* **Descripción:** Fundamentos de Linux, historia, selección de distribuciones y preparación del entorno seguro con VirtualBox.
-* **Estado:** Finalizado.
-* **Duración estimada:** 3 horas.
+### 📊 Detalles del programa
+* **Dificultad:** Básico a Avanzado. Comenzamos desde cero absoluto.
+* **Conocimientos previos:** No se requiere experiencia previa con Linux. Solo manejo básico de un ordenador (Windows o macOS), conexión a internet y ganas de aprender.
+* **Tiempo total estimado:** ~50 horas (actualizado: **36 horas** de contenido ya disponible).
 
-### ✅ [Módulo 2: Instalación del Sistema](./02-instalacion-del-sistema/)
-* **Descripción:** Proceso de instalación real, conceptos de particionado (Raíz, Home, Swap) y configuración post-instalación.
-* **Estado:** Finalizado.
-* **Duración estimada:** 4 horas.
+---
 
-### ✅ [Módulo 3: Supervivencia en la Terminal](./03-supervivencia-en-terminal/)
-* **Descripción:** El corazón de Linux. Uso de la shell Bash, atajos de teclado, navegación por directorios, gestión de archivos y edición de texto con Nano.
-* **Estado:** Finalizado.
-* **Duración estimada:** 5 horas.
+## 🗂️ Estructura del Bootcamp (Roadmap)
 
-### ✅ [Módulo 4: Gestión de Paquetes y Software](./04-gestion-de-paquetes-y-software/)
-* **Descripción:** Instalación de programas, uso de repositorios (`apt`), paquetes `.deb`, formatos universales (Snap, Flatpak, AppImage) y compilación básica.
-* **Estado:** Finalizado.
-* **Duración estimada:** 4.5 horas.
+El entrenamiento se divide en tres grandes fases lógicas. Cada carpeta contiene su propio material y guías paso a paso.
 
-### ✅ [Módulo 5: Usuarios y Permisos](./05-usuarios-y-permisos/)
-* **Descripción:** Seguridad del sistema, gestión de cuentas, grupos, matriz de permisos (rwx), comandos `chmod`/`chown` y uso de `sudo`.
-* **Estado:** Finalizado.
-* **Duración estimada:** 4 horas.
+### Fase 1: Supervivencia y Fundamentos
+* ✅ **[Módulo 1: Introducción y Entorno](./01-introduccion-y-entorno/)** (3h) - Fundamentos, historia y preparación del laboratorio seguro con VirtualBox.
+* ✅ **[Módulo 2: Instalación del Sistema](./02-instalacion-del-sistema/)** (4h) - Proceso de instalación real, particionado (Raíz, Home, Swap) y configuración inicial.
+* ✅ **[Módulo 3: Supervivencia en la Terminal](./03-supervivencia-en-terminal/)** (5h) - El corazón de Linux. Uso de Bash, navegación, atajos y edición con Nano.
+* ✅ **[Módulo 4: Gestión de Paquetes y Software](./04-gestion-de-paquetes-y-software/)** (4.5h) - Repositorios (`apt`), paquetes `.deb`, formatos universales y compilación.
+* ✅ **[Módulo 5: Usuarios y Permisos](./05-usuarios-y-permisos/)** (4h) - Seguridad del sistema, cuentas, grupos, la matriz de permisos (rwx) y uso de `sudo`.
 
-### ✅ [Módulo 6: Automatización y Bash Scripting](./06-automatizacion-y-bash-scripting/)
-* **Descripción:** Creación de guiones (scripts) para automatizar tareas, uso de variables, operaciones, condicionales, bucles y funciones.
-* **Estado:** Finalizado.
-* **Duración estimada:** 5 horas.
+### Fase 2: Automatización y Redes
+* ✅ **[Módulo 6: Automatización y Bash Scripting](./06-automatizacion-y-bash-scripting/)** (5h) - Creación de guiones para automatizar tareas, variables, bucles y funciones.
+* ✅ **[Módulo 7: Redes y Servicios Básicos](./07-redes-y-servicios-basicos/)** (4.5h) - Configuración IP/DNS, acceso remoto seguro con SSH, cortafuegos UFW y systemd.
 
-### ✅ [Módulo 7: Redes y Servicios Básicos](./07-redes-y-servicios-basicos/)
-* **Descripción:** Configuración de red (IP/DNS), acceso remoto seguro con SSH, transferencia de archivos (SCP/SFTP), cortafuegos (UFW) y gestión de servicios con systemd.
-* **Estado:** Finalizado.
-* **Duración estimada:** 4.5 horas.
-
-### ✅ [Módulo 8: Servidores Web y Bases de Datos](./08-servidores-web-y-bases-de-datos/)
-* **Descripción:** Despliegue del Stack LEMP (Nginx, MariaDB, PHP), seguridad con certificados SSL y configuración de un CMS (WordPress) en producción.
-* **Estado:** Finalizado.
-* **Duración estimada:** 6 horas.
-
-### 🚧 Módulo 9: Contenedores y Docker
-* **Descripción:** Introducción a la virtualización ligera, creación de imágenes, gestión de contenedores y despliegue rápido con Docker Compose.
-* **Estado:** Planificado (Siguiente paso).
+### Fase 3: Infraestructura, DevOps y Nube
+* ✅ **[Módulo 8: Servidores Web y Bases de Datos](./08-servidores-web-y-bases-de-datos/)** (6h) - Despliegue del Stack LEMP (Nginx, MariaDB, PHP), certificados SSL y CMS (WordPress).
+* 🚧 **[Módulo 9: Contenedores y Docker](./09-contenedores-y-docker/)** - Virtualización ligera, creación de imágenes y despliegue con Docker Compose. *(Planificado - Siguiente paso)*
+* 🚧 **Módulo 10: Monitorización, Logs y Troubleshooting** - Diagnóstico de problemas, lectura del sistema y rendimiento. *(Planificado)*
+* 🚧 **Módulo 11: Seguridad Avanzada y Hardening** - Fail2ban, llaves SSH y auditorías. *(Planificado)*
+* 🎓 **Módulo 12: Proyecto Final (De Local a la Nube)** - Alquiler de VPS, dominios reales y despliegue en internet. *(Planificado)*
 
 ---
 
@@ -74,7 +48,7 @@ Cada módulo está organizado de forma jerárquica para facilitar el aprendizaje
 1.  **Navegación:** Entra en la carpeta del módulo correspondiente (ej. `08-servidores-web-y-bases-de-datos`).
 2.  **Lectura:** Cada carpeta de módulo tiene su propio `README.md` que explica los objetivos y lista los temas.
 3.  **Temas:** Dentro de cada módulo, los temas están numerados (ej. `04-el-stack-lemp`). Entra en ellos y sigue el archivo `README.md` detallado.
-4.  **Práctica:** No te limites a leer. Ten tu máquina virtual abierta y replica cada paso. Linux se aprende escribiendo, no solo mirando.
+4.  **Práctica:** No te limites a leer. Ten tu máquina virtual abierta y replica cada paso. **Linux se aprende escribiendo, no solo mirando.**
 
 ---
-*Este curso es de código abierto. Si encuentras algún error o quieres proponer una mejora, ¡los Pull Requests son bienvenidos!*
+*Este proyecto es de código abierto y está vivo. Si encuentras algún error o quieres proponer una mejora, ¡los Pull Requests son bienvenidos!*
